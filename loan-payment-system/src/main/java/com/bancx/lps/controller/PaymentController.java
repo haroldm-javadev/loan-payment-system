@@ -26,7 +26,7 @@ public class PaymentController {
     this.paymentService = paymentService;
   }
 
-  @PostMapping("/")
+  @PostMapping("")
   public ResponseEntity<Response> payment(@RequestBody PaymentDto payment) {
 
     try {

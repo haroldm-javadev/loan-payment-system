@@ -46,7 +46,7 @@ public class LoanController {
     return new ResponseEntity<>(Response.builder().result(results).build(), HttpStatus.OK);
   }
 
-  @PostMapping("/add-loan")
+  @PostMapping("")
   public ResponseEntity<Response> addLoan(@RequestBody LoanDto loan) {
 
     try {
